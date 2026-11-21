@@ -30,10 +30,7 @@ export default function Home() {
         </p>
         
 
-<div className="flex gap-6">
-  <Link href="/about">About</Link>
-  <Link href="/contact">Contact</Link>
-</div>
+
 <MyButton text="Get Started" color="blue" />
 
       </main>
