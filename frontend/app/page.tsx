@@ -13,7 +13,8 @@ export default function Home() {
 
         <div className="flex gap-6 text-black">
          <Link href="/about">About</Link>
-  <Link href="/contact">Contact</Link>
+          <Link href="/contact">Contact</Link>
+          <Link href="/dashboard">Dashboard</Link>
         </div>
 
       </nav>
