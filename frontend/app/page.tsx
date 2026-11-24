@@ -1,5 +1,6 @@
 import Link from "next/link";
 import MyButton from "@/components/MyButton";
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-zinc-50">
@@ -14,8 +15,10 @@ export default function Home() {
         <div className="flex gap-6 text-black">
          <Link href="/about">About</Link>
   <Link href="/contact">Contact</Link>
-        </div>
-
+  <Link href="/login">login</Link>
+       
+        <div><Link className="text-black" href="/admin/DashBoard">Admin</Link></div>
+ </div>
       </nav>
 
       {/* Homepage Content */}

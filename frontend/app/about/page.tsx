@@ -10,7 +10,7 @@ export default function About() {
 
         <div className="flex gap-6 text-black">
           <Link href="/" className="hover:text-blue-600">Home</Link>
-          <Link href="/about" className="font-semibold text-blue-600">About</Link>
+          {/* <Link href="/about" className="font-semibold text-blue-600">About</Link> */}
           <Link href="/contact" className="hover:text-blue-600">Contact</Link>
         </div>
       </nav>
